@@ -1,0 +1,60 @@
+html, body {
+    height: 100%; 
+    margin: 0; 
+}
+
+html {
+    background-image: url(/styles/img/bg.jpg);
+    background-size: 100% 100%; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%;
+    background-color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center;    
+    color: rgba(255, 217, 0, 0.55);
+    margin: 0 auto; 
+    margin-top: 20dvh;
+    overflow-y: auto; 
+    height: 58dvh;
+    font-size: 1.5dvb;
+    width: 60dvw;
+    max-height: 58dvh; 
+    
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+#sobre-mim{
+    height:fit-content;
+    overflow-y: scroll;
+}
+
+#sobre-mim::-webkit-scrollbar {
+    width: 10px;
+}
+
+#sobre-mim::-webkit-scrollbar-track {
+    background:rgba(110, 94, 2, 0.55);
+    border-radius: 5px;
+}
+
+#sobre-mim::-webkit-scrollbar-thumb {
+    background: rgba(255, 217, 0, 0.356);
+    border-radius: 5px;
+}
+
+#sobre-mim::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 217, 0, 0.8);
+}
+
+hr {
+    border: 1px dashed rgba(255, 217, 0, 0.55);
+}
