@@ -215,7 +215,7 @@
     }
     
     .silver-title {
-        background: linear-gradient(0deg, #202020, #525050, #d9d9d9, #8c8c8c, #4b4848);
+        background: linear-gradient(0deg, #575656, #525050, #d9d9d9, #8c8c8c, #575656);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
