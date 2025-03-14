@@ -28,11 +28,11 @@ hr {
 
 h1 {
   text-align: center;
-  background: linear-gradient(0deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07);
+  background: linear-gradient(0deg, #a56007, #b47e11, #fef1a2, #bc881b, #a54e07);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 3dvw;
-  padding: 5dvh;
+  padding: dvh;
         
 }
 
