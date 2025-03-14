@@ -1,67 +1,38 @@
-html {
+*{
+  margin: 0;
+  padding: 0;
   background-color: black;
-  min-width: fit-content;
-  padding: 0% 2%;
 }
 
-.header {
-  z-index: 100;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  background-color: black;
-  width: 100%;  
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}
 
 hr {
-  height: 2px; 
+  margin: 0.3dvw;
+  height: 0.3dvw; 
   border: none; 
   background: linear-gradient(90deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07); /* Aplica o gradiente */
 }
 
-.header-content {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
 
-.header-content img {
-  width: 100%;
-  height: auto;
-  justify-content: center;
-}
+
 .headerdiv{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 100%;
-}
-.logo {
-  display: flex;
-  background-color: black;
-  width: 90%; 
-  max-width: 700px;
-  justify-content: center;
 }
 
-.logo img {
-  width: 90%; 
-  height: 40dvh; 
-  object-fit: cover; 
-  max-height: 100%; 
-  
+.logo {
+  background-color: black;
+  width: 50%; 
 }
+
 
 h1 {
   text-align: center;
   background: linear-gradient(0deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 7dvh;
+  font-size: 3dvw;
+  padding: 5dvh;
         
 }
 
@@ -70,11 +41,9 @@ h1 {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
   gap: 1dvw;
-  width: auto; 
   padding: 1dvw;
-  margin: 2%;
+
 }
 
 .nav-link {
@@ -84,11 +53,11 @@ h1 {
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.5);
   color: rgba(255, 217, 0, 0.55);
-  padding: 5px;
+  padding: 0.1dvw;
   border-radius: 5px;
   text-decoration: none; 
   justify-content: center;
-  font-size: 3dvh;
+  font-size: 2dvw;
   text-align: center;
 }
 
@@ -97,8 +66,8 @@ h1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: auto;
-  height: 15dvh;
+  width: 7dvw;
+  height: auto;
   border-radius: 50%;
   align-items: center;
   justify-content: center;
@@ -112,7 +81,7 @@ h1 {
 
   .nav-class {
     flex-direction: row;
-    gap: 10px;
+    gap: 0.1dvw;
     flex-wrap: nowrap;
   }
 
