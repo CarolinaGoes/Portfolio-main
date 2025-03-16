@@ -99,8 +99,8 @@ h1 {
     }
 }
 
-.buttons {
-    width: 100%;
+button {
+    width: fit-content;
     font-size: 2dvw; 
 	padding: 1dvw;
     border-radius: 0.3em;
@@ -129,5 +129,13 @@ h1 {
       inset 0 -2px 5px 1px #b17d10, inset 0 -1px 1px 3px rgba(250, 227, 133, 1);
     border: 1px solid rgba(165, 93, 7, 0.6);
     color: rgba(120, 50, 5, 0.8);
+
+}
+.buttons-container{
+    justify-self: center;
 }
 
+iframe{
+    width:fit-content;
+    height: fit-content;
+}
