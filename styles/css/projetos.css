@@ -13,11 +13,17 @@ body {
 }
 
 h1 {
-    font-size: 5dvw;
+    font-size: 10dvw;
     background: linear-gradient(0deg, #a56007, #b47e11, #fef1a2, #bc881b, #a54e07);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
+    margin-top: 0%;
+}
+p{
+    color: #665716;
+    font-size: 3dvw;
+    margin: 5% 3%;
 }
 
 .cards-container {
@@ -25,6 +31,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 2dvw; 
+    
 }
 
 
@@ -35,6 +42,7 @@ h1 {
     box-shadow: 0px 0px 10px 1px #8f8101ee;
     border-radius: 5px;
     transition: transform 0.3s ease;
+
 }
 
 
@@ -45,6 +53,7 @@ h1 {
     transition: transform 300ms;
     border-radius: 5px;
     overflow: hidden;
+    
 }
 
 .project {
@@ -64,14 +73,18 @@ h1 {
     content: '';
     width: 160px;
     height: 160%;
-    background: linear-gradient(90deg, transparent, #ff9966, #ff9966, #ff9966, #ff9966, transparent);
+    background: linear-gradient(90deg, transparent,  #a54e07,
+    #b47e11,
+    #fef1a2,
+    #bc881b,
+    #a54e07, transparent);
     animation: rotation_481 5000ms infinite linear;
 }
 
 .project-content {
     position: absolute;
-    width: 99%;
-    height: 99%;
+    width: 98%;
+    height: 98%;
     background-color: #151515;
     border-radius: 5px;
     display: flex;
@@ -133,9 +146,19 @@ button {
 }
 .buttons-container{
     justify-self: center;
+    background-color: #1d1c1c;
+}
+iframe{
+    background-color: black;
+    color: yellow;
 }
 
-iframe{
-    width:fit-content;
-    height: fit-content;
+h2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto; 
+    font-size: 4dvw;
+    background: linear-gradient(0deg, #a56007, #b47e11, #fef1a2, #bc881b, #a54e07);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
