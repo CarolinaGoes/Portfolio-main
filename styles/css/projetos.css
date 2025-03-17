@@ -18,12 +18,22 @@ h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
-    margin-top: 0%;
+    margin-top: -4% 0%;
 }
 p{
     color: #665716;
-    font-size: 3dvw;
+    font-size: 2dvw;
     margin: 5% 3%;
+}
+
+h2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto; 
+    font-size: 2.5dvw;
+    background: linear-gradient(0deg, #a56007, #b47e11, #fef1a2, #bc881b, #a54e07);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .cards-container {
@@ -36,7 +46,7 @@ p{
 
 
 .card {
-    width: 40%; 
+    width: 30%; 
     aspect-ratio: 1 / 1.414;
     margin: 0;
     box-shadow: 0px 0px 10px 1px #8f8101ee;
@@ -85,7 +95,7 @@ p{
     position: absolute;
     width: 98%;
     height: 98%;
-    background-color: #151515;
+    background-color: #181717;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -114,8 +124,9 @@ p{
 
 button {
     width: fit-content;
-    font-size: 2dvw; 
-	padding: 1dvw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: auto; 
+	padding: 1vw;
     border-radius: 0.3em;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(110, 80, 20, 0.4),
       inset 0 -2px 5px 1px rgba(139, 66, 8, 1),
@@ -153,12 +164,3 @@ iframe{
     color: yellow;
 }
 
-h2 {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: auto; 
-    font-size: 4dvw;
-    background: linear-gradient(0deg, #a56007, #b47e11, #fef1a2, #bc881b, #a54e07);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
