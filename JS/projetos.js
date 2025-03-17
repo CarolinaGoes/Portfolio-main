@@ -1,4 +1,4 @@
-function addIframe() {
+function addIframe(url) {
     let container = document.querySelector(".project-content"); 
     let existingIframe = container.querySelector("iframe");
 
@@ -10,7 +10,7 @@ function addIframe() {
         `; 
     } else {
         let iframe = document.createElement("iframe"); 
-        iframe.src = "https://www.example.com"; 
+        iframe.src = url; 
         iframe.style.width = "100%"; 
         iframe.style.height = "100%"; 
 

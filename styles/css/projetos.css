@@ -10,51 +10,54 @@ html {
 
 body {
     padding: 20px;
+    width: 100%;
 }
 
 h1 {
-    font-size: 10dvw;
+    font-size: 7vw;
     background: linear-gradient(0deg, #a56007, #b47e11, #fef1a2, #bc881b, #a54e07);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
-    margin-top: -4% 0%;
+    margin: 0.2%;
 }
 p{
     color: #665716;
     font-size: 2dvw;
     margin: 5% 3%;
+    text-align: center;
 }
 
 h2 {
     display: flex;
     justify-content: flex-end;
     margin-top: auto; 
-    font-size: 2.5dvw;
+    font-size: 2dvw;
     background: linear-gradient(0deg, #a56007, #b47e11, #fef1a2, #bc881b, #a54e07);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
 }
 
 .cards-container {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-start; 
     gap: 2dvw; 
-    
+    align-content: flex-start; 
+    margin: 0 2%; 
+    max-width: 100%; 
 }
 
-
 .card {
-    width: 30%; 
+    width: 20vw; 
     aspect-ratio: 1 / 1.414;
-    margin: 0;
+    margin: 1%; 
     box-shadow: 0px 0px 10px 1px #8f8101ee;
     border-radius: 5px;
     transition: transform 0.3s ease;
-
 }
-
 
 .content {
     width: 100%;
@@ -163,5 +166,17 @@ button {
 iframe{
     background-color: black;
     color: yellow;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 45%; /* Adjust width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%; /* Full width for very small screens */
+    }
 }
 
