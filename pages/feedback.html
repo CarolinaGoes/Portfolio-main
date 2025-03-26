@@ -67,15 +67,37 @@
         }
         
         button:hover {
+            border:2px solid #0e0b00;
             background: #745f0491;
             color: #0e0b00;
+            box-shadow: inset;
         }
+
+        img{
+            display: flex;
+            flex-direction: row;
+            width: 15vw;
+            border: white solid 2px;
+            
+        }
+        #redes{
+            display: flex;
+            margin:2vh;
+            gap: 20px;
+            justify-content: center;
+        }
+        .logos{
+            margin: 2vw;
+
+            
+        }
+
     </style>
 </head>
 <body>
 
     <div class="container">
-        <h2>Feedback e Contato</h2>
+        <h2>Mande uma mensagem</h2>
         <form action="#" method="POST">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required>
@@ -91,6 +113,13 @@
             <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
 
             <button type="submit">Enviar</button>
+
+            <h2>ou entre em contato:</h2>
+            <div id="redes">
+                <section class="logo"><img src="/styles/img/linkedin.png" alt="logo do linkedin"></section>
+                <section class="logo"><img src="/styles/img/github.png" alt="logo do github"></section>
+               </div>
+
         </form>
     </div>
 
