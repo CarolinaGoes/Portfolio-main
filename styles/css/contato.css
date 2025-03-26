@@ -3,6 +3,7 @@ html {
     background-size: cover;
     width: 100%;
     height: 100%;
+    background-size: auto
 }
 
 body {
@@ -10,15 +11,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100dvh;
+    height: 100%;
 }
 
 .container {
-    padding: 3vb;
+    margin:5%;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0px 15px rgba(170, 114, 9, 0.856);
-    width: 100%;
-    max-width: 400px;
+    width: fit-content;
+    height: fit-content;
+    max-width: 50%;
     color: #856f10;
     background-color:rgba(0, 0, 0, 0.473) ;
 }
@@ -31,48 +34,49 @@ h2 {
 label {
     font-weight: bold;
     display: block;
-    margin-top: 10px;
+    margin-top: 3%;
 }
 
 input, textarea, select {
+    padding: 5%;
     background: transparent;
     border: 2px solid #86660d;
-    width: 100%;
-    padding: 8px;
-    margin-top: 5px;
-    border-radius: 5px;
-    font-size: 14px;
+    width: 90%;
+    padding: 2%;
+    margin-top: 5%;
+    border-radius: 1%;
+    font-size: 110%;
     color: #805f04;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 input:focus, textarea:focus, select:focus {
     outline: none;
-    border: 2px solid #fcd126; /* Borda amarela */
+    border: 2% solid #fcd126; /* Borda amarela */
 }
 
 button {
-    width: 100%;
-    padding: 10px;
+    width: 90%;
+    padding: 3%;
     background: transparent;
     color: #856f10;
     font-weight: bolder;
-    font-size: 16px;
-    margin-top: 15px;
+    font-size: 16%;
+    margin-top: 5%;
     cursor: pointer;
     transition: 0.3s;
-    border: 2px #805f04 solid; 
+    border: 0 #805f04 solid; 
     border-radius: 20px;
-    box-shadow: 0px 0px 10px #805f04bb;
+    box-shadow: 0px 0px 15px #805f04bb;
     font-weight: bolder;
     font-size: larger;        
 }
 button:focus{
-    border: 2px solid #856f10
+    border: 2% solid #856f10
 }
 
 button:hover {
-    border:2.8px solid #0e0b00;
+    border:2.8% solid #0e0b00;
     background: #ffd10291;
     color: #0e0b00;
     box-shadow: inset;
@@ -93,9 +97,9 @@ img{
 .logo {
     justify-content: center;
     margin: 2%;
-    padding: 2%;
+    padding: 1%;
     width: 100%;
-    height: 50%;
+    height: 7%;
     background-color: #805f04;
-    border-radius: 20%;
+    border-radius: 10%;
 }
