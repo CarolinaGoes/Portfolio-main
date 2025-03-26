@@ -6,6 +6,7 @@
     <title>Feedback e Contato</title>
     <style>
         html {
+            z-index: 1;
             background-image: url("/styles/img/bg3.png");
             background-size: cover;
         }
@@ -21,6 +22,7 @@
         }
         
         .container {
+            z-index: 2;
             padding: 30px;
             border-radius: 10px;
             box-shadow: 0 0px 15px rgba(170, 114, 9, 0.856);
@@ -76,9 +78,10 @@
         img{
             display: flex;
             flex-direction: row;
-            width: 15vw;
+            width: 20vw;
+            height: 100%;
             border: white solid 2px;
-            
+            z-index: 3;
         }
         #redes{
             display: flex;
@@ -87,9 +90,9 @@
             justify-content: center;
         }
         .logos{
-            margin: 2vw;
-
-            
+            margin: 3vw;
+            padding:2vw;
+            width: 20px;            
         }
 
     </style>
@@ -97,7 +100,7 @@
 <body>
 
     <div class="container">
-        <h2>Mande uma mensagem</h2>
+        <h2>Mande uma mensagem:</h2>
         <form action="#" method="POST">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required>
@@ -114,7 +117,7 @@
 
             <button type="submit">Enviar</button>
 
-            <h2>ou entre em contato:</h2>
+            <h2>Siga as redes:</h2>
             <div id="redes">
                 <section class="logo"><img src="/styles/img/linkedin.png" alt="logo do linkedin"></section>
                 <section class="logo"><img src="/styles/img/github.png" alt="logo do github"></section>
