@@ -29,17 +29,17 @@ hr {
 .gradient-text {
   font-family: "Great Vibes", cursive;
   font-size: 60px;
-  fill: url(#fill-gradient); /* Gradiente aplicado ao preenchimento */
-  stroke: none; /* Sem contorno */
+  fill: url(#fill-gradient); 
+  stroke: none; 
   text-anchor: middle;
 }
 
 @keyframes writing {
   from {
-    stroke-dashoffset: 900; /* Começa fora da tela */
+    stroke-dashoffset: 900; 
   }
   to {
-    stroke-dashoffset: 0; /* Finaliza o traço */
+    stroke-dashoffset: 0;
   }
 }
 
@@ -61,7 +61,6 @@ hr {
   }
 }
 
-/* Adicione animação aos stops do gradiente */
 #stop1, #stop2, #stop3, #stop4, #stop5 {
   animation: gradient-animation 4s infinite;
 }
@@ -88,7 +87,6 @@ h2 {
   align-items: center;
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.5);
-  color: rgba(255, 217, 0, 0.55);
   padding: 0.1dvw;
   border-radius: 5px;
   text-decoration: none;
@@ -110,7 +108,7 @@ h2 {
 }
 
 .nav-link:hover {
-  background-color: rgba(255, 217, 0, 0.26);
+  background-color: rgba(255, 217, 0, 0.486);
 }
 
 .nav-class {
