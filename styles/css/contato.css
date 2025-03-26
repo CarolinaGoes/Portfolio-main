@@ -10,11 +10,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100dvh;
 }
 
 .container {
-    padding: 30px;
+    padding: 3vb;
     border-radius: 10px;
     box-shadow: 0 0px 15px rgba(170, 114, 9, 0.856);
     width: 100%;
