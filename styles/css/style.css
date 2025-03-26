@@ -6,9 +6,9 @@
 
 hr {
   margin: 0.3dvw;
-  height: 0.3dvw; 
-  border: none; 
-  background: linear-gradient(90deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07); /* Aplica o gradiente */
+  height: 0.3dvw;
+  border: none;
+  background: linear-gradient(90deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07);
 }
 
 .headerdiv {
@@ -19,6 +19,7 @@ hr {
 
 #name-svg {
   width: 100%;
+  max-width: 600px;
   height: auto;
   overflow: visible;
 }
@@ -27,22 +28,42 @@ hr {
 
 .gradient-text {
   font-family: "Great Vibes", cursive;
-  font-size: 100px;
-  fill: url(#fill-gradient); /* Aplica o gradiente de preenchimento */
+  font-size: 60px;
+  fill: url(#fill-gradient); /* Gradiente aplicado ao preenchimento */
+  stroke: none; /* Sem contorno */
   text-anchor: middle;
-  visibility: hidden; /* Inicialmente o texto está invisível */
-  animation: writing 4s ease-in-out forwards; /* Animação de escrita */
 }
 
 @keyframes writing {
+  from {
+    stroke-dashoffset: 900; /* Começa fora da tela */
+  }
+  to {
+    stroke-dashoffset: 0; /* Finaliza o traço */
+  }
+}
+
+@keyframes gradient-animation {
   0% {
-    visibility: visible;
-    width: 0; /* Começa com o texto invisível */
+    stop-color: #a54e07;
+  }
+  25% {
+    stop-color: #b47e11;
+  }
+  50% {
+    stop-color: #fef1a2;
+  }
+  75% {
+    stop-color: #bc881b;
   }
   100% {
-    visibility: visible;
-    width: 100%; /* O texto se revela completamente */
+    stop-color: #a54e07;
   }
+}
+
+/* Adicione animação aos stops do gradiente */
+#stop1, #stop2, #stop3, #stop4, #stop5 {
+  animation: gradient-animation 4s infinite;
 }
 
 h2 {
@@ -70,7 +91,7 @@ h2 {
   color: rgba(255, 217, 0, 0.55);
   padding: 0.1dvw;
   border-radius: 5px;
-  text-decoration: none; 
+  text-decoration: none;
   justify-content: center;
   font-size: 2dvw;
   text-align: center;
@@ -99,12 +120,12 @@ h2 {
 }
 
 a {
-  color: rgba(255, 217, 0, 0.55); 
+  color: rgba(255, 217, 0, 0.55);
   text-decoration: none;
 }
 
 a:visited {
-  color: rgb(150, 128, 4)  
+  color: rgb(150, 128, 4)
 }
 
 a:active {
