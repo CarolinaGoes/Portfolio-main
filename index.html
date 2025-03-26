@@ -4,24 +4,26 @@
   <link rel="stylesheet" href="/styles/css/style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Rochester&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
   <title>Carolina Goes</title>
 </head>
 <body>
-    
   <header class="header">
     <div class="headerdiv">
-      <svg id="name-svg" width="300" height="100" viewBox="0 0 300 100">
+      <svg id="name-svg" width="100%" height="150" viewBox="0 0 500 150">
         <defs>
-          <linearGradient id="text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#a36718"/>
-            <stop offset="100%" stop-color="#ffcc70"/>
+          <!-- Definição do gradiente de preenchimento com a paleta de cores -->
+          <linearGradient id="fill-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#a54e07"/>
+            <stop offset="25%" stop-color="#b47e11"/>
+            <stop offset="50%" stop-color="#fef1a2"/>
+            <stop offset="75%" stop-color="#bc881b"/>
+            <stop offset="100%" stop-color="#a54e07"/>
           </linearGradient>
         </defs>
-        
-        <text x="150" y="60" class="gradient-text">
+
+        <!-- Texto com gradiente de preenchimento -->
+        <text id="name" x="250" y="100" class="gradient-text">
           Carolina Goes
         </text>
       </svg>
@@ -53,13 +55,6 @@
         <div>Projetos</div>
       </a>
     </div>
-
-    <!-- <div class="nav-link jogos">
-      <a href="/pages/jogos.html">
-        <img src="/styles/img/games.png" alt="Jogos">
-        <div>Jogos</div>
-      </a>
-    </div> -->
 
     <div class="nav-link contato">
       <a href="/pages/contato.html">

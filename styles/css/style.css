@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   background-color: black;
@@ -11,47 +11,38 @@ hr {
   background: linear-gradient(90deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07); /* Aplica o gradiente */
 }
 
-.headerdiv{
+.headerdiv {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 #name-svg {
   width: 100%;
-  height: 100px;
+  height: auto;
+  overflow: visible;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 .gradient-text {
   font-family: "Great Vibes", cursive;
-  font-size: 80px; /* Nome maior */
-  fill: url(#text-gradient); 
-  stroke: url(#stroke-gradient); 
-  stroke-width: 2; /* Contorno maior */
+  font-size: 100px;
+  fill: url(#fill-gradient); /* Aplica o gradiente de preenchimento */
   text-anchor: middle;
+  visibility: hidden; /* Inicialmente o texto está invisível */
+  animation: writing 4s ease-in-out forwards; /* Animação de escrita */
 }
 
-#name-svg {
-  width: 100%;
-  max-width: 500px; /* Ajuste do tamanho máximo */
-  height: auto;
-  overflow: visible; /* Evita cortes */
-}
-
-
-
-#name {
-
-  stroke-dasharray:278;
-  stroke-dashoffset: 272;
-  animation: name-svg 4s;
-  animation-fill-mode: forwards;
-}
-@keyframes name-svg{
-to{
-  stroke-dashoffset: 0;
-}
+@keyframes writing {
+  0% {
+    visibility: visible;
+    width: 0; /* Começa com o texto invisível */
+  }
+  100% {
+    visibility: visible;
+    width: 100%; /* O texto se revela completamente */
+  }
 }
 
 h2 {
@@ -60,7 +51,6 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 3dvw;
-
 }
 
 .nav-class {
@@ -69,7 +59,6 @@ h2 {
   align-items: center;
   gap: 1dvw;
   padding: 1dvw;
-
 }
 
 .nav-link {
@@ -101,27 +90,22 @@ h2 {
 
 .nav-link:hover {
   background-color: rgba(255, 217, 0, 0.26);
-  
-
 }
 
 .nav-class {
-    flex-direction: row;
-    gap: 0.1dvw;
-    flex-wrap: nowrap;
-  }
-
+  flex-direction: row;
+  gap: 0.1dvw;
+  flex-wrap: nowrap;
+}
 
 a {
   color: rgba(255, 217, 0, 0.55); 
   text-decoration: none;
 }
 
-
 a:visited {
   color: rgb(150, 128, 4)  
 }
-
 
 a:active {
   color: rgb(255, 217, 0)
