@@ -36,9 +36,11 @@ hr {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  
 }
 
 #name-svg {
+  
   width: 100%;
   height: auto;
 }
@@ -90,8 +92,9 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 3dvw;
-  margin: 2%;
 }
+
+ 
 
 .nav-class {
   display: flex;
@@ -138,7 +141,7 @@ h2 {
 }
 
 a {
-  color: rgba(255, 217, 0, 0.55);
+  color: rgb(255, 196, 0);
   text-decoration: none;
 }
 
