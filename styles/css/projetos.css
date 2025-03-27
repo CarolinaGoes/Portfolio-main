@@ -29,11 +29,11 @@ p{
 }
 
 h2 {
-    margin: 1%;
+    margin-bottom:0 ;
     display: flex;
     justify-content: flex-end;
     margin-top: auto; 
-    font-size: 2dvw;
+    font-size: 1.8dvw;
     background: linear-gradient(0deg, #a56007, #b47e11, #fef1a2, #bc881b, #a54e07);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -161,4 +161,15 @@ button {
     background-image: url(/styles/img/menudoces.jpg);
 background-size: 100%;
 background-repeat: no-repeat;
+}
+.xicara{
+    background-image: url(/styles/img/xicara.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+.labirinto{
+    background-image: url(/styles/img/labirinto.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
