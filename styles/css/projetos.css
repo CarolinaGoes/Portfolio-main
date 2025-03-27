@@ -29,6 +29,7 @@ p{
 }
 
 h2 {
+    margin: 1%;
     display: flex;
     justify-content: flex-end;
     margin-top: auto; 
@@ -108,14 +109,6 @@ h2 {
 	margin: 2%;
 }
 
-.project-content iframe {
-    width: 100%; 
-    height: 100%; 
-    border: none;
-    border-radius: 5px;
-    object-fit: cover;
-    margin: 0; /* Remove margin */
-}
 
 @keyframes rotation_481 {
     0% {
@@ -163,20 +156,9 @@ button {
     justify-self: center;
     background-color: #1d1c1c;
 }
-iframe{
-    background-color: black;
-    color: yellow;
-}
 
-@media (max-width: 768px) {
-    .card {
-        width: 45%; /* Adjust width for smaller screens */
-    }
+.doces{
+    background-image: url(/styles/img/menudoces.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
 }
-
-@media (max-width: 480px) {
-    .card {
-        width: 100%; /* Full width for very small screens */
-    }
-}
-
