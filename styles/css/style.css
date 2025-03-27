@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: #050303;
 }
 
 hr {
@@ -15,20 +15,20 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 #name-svg {
   width: 100%;
-  max-width: 600px;
   height: auto;
-  overflow: visible;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
 .gradient-text {
+  margin-top:5%;
   font-family: "Great Vibes", cursive;
-  font-size: 60px;
+  font-size: 400%;
   fill: url(#fill-gradient); 
   stroke: none; 
   text-anchor: middle;
@@ -39,7 +39,7 @@ hr {
     stroke-dashoffset: 900; 
   }
   to {
-    stroke-dashoffset: 0;
+    stroke-dashoffset: 100%;
   }
 }
 
@@ -62,7 +62,7 @@ hr {
 }
 
 #stop1, #stop2, #stop3, #stop4, #stop5 {
-  animation: gradient-animation 4s infinite;
+  animation: gradient-animation 3s infinite;
 }
 
 h2 {
@@ -70,7 +70,9 @@ h2 {
   background: linear-gradient(0deg, #a56007, #b47e11, #fef1a2, #bc881b, #a54e07);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 3dvw;
+  font-size: 4dvw;
+  margin: 1%;
+  width: 100%;
 }
 
 .nav-class {
@@ -91,7 +93,7 @@ h2 {
   border-radius: 5px;
   text-decoration: none;
   justify-content: center;
-  font-size: 2dvw;
+  font-size: 5dvw;
   text-align: center;
 }
 
@@ -118,8 +120,9 @@ h2 {
 }
 
 a {
-  color: rgba(255, 217, 0, 0.55);
+  color: rgb(184, 114, 23);
   text-decoration: none;
+  
 }
 
 a:visited {
