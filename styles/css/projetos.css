@@ -41,7 +41,8 @@ h1 {
     text-align: center;
     margin: 0.2%;
 }
-p{
+
+p {
     color: #665716;
     font-size: 2dvw;
     margin: 5% 3%;
@@ -49,10 +50,10 @@ p{
 }
 
 h2 {
-    margin-bottom:0 ;
+    margin-bottom: 0;
     display: flex;
     justify-content: flex-end;
-    margin-top: auto; 
+    margin-top: auto;
     font-size: 1.8dvw;
     background: linear-gradient(0deg, #a56007, #b47e11, #fef1a2, #bc881b, #a54e07);
     -webkit-background-clip: text;
@@ -64,17 +65,17 @@ h2 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
-    gap: 2dvw; 
-    align-content: flex-start; 
-    margin: 2% 2%; 
-    max-width: 100%; 
+    justify-content: center;
+    gap: 2dvw;
+    align-content: flex-start;
+    margin: 2% 2%;
+    max-width: 100%;
 }
 
 .card {
-    width: 20vw; 
+    width: 20vw;
     aspect-ratio: 1 / 1.414;
-    margin: 1%; 
+    margin: 1%;
     box-shadow: 0px 0px 10px 1px #8f8101ee;
     border-radius: 5px;
     transition: transform 0.3s ease;
@@ -87,7 +88,7 @@ h2 {
     transition: transform 300ms;
     border-radius: 5px;
     overflow: hidden;
-    
+
 }
 
 .project {
@@ -107,11 +108,11 @@ h2 {
     content: '';
     width: 160px;
     height: 160%;
-    background: linear-gradient(90deg, transparent,  #a54e07,
-    #b47e11,
-    #fef1a2,
-    #bc881b,
-    #a54e07, transparent);
+    background: linear-gradient(90deg, transparent, #a54e07,
+            #b47e11,
+            #fef1a2,
+            #bc881b,
+            #a54e07, transparent);
     animation: rotation_481 5000ms infinite linear;
 }
 
@@ -126,7 +127,7 @@ h2 {
     justify-content: center;
     align-items: center;
     gap: 30px;
-	margin: 2%;
+    margin: 2%;
 }
 
 
@@ -134,6 +135,7 @@ h2 {
     0% {
         transform: rotateZ(0deg);
     }
+
     100% {
         transform: rotateZ(360deg);
     }
@@ -144,20 +146,18 @@ button {
     margin-bottom: 1dvw;
     width: fit-content;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 2dvw; 
-	padding: 0.5dvw 2vw;
+    font-size: 2dvw;
+    padding: 0.5dvw 2vw;
     border-radius: 0.3em;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(110, 80, 20, 0.4),
-      inset 0 -2px 5px 1px rgba(139, 66, 8, 1),
-      inset 0 -1px 1px 3px rgba(250, 227, 133, 1);
-    background-image: linear-gradient(
-      160deg,
-      #a54e07,
-      #b47e11,
-      #fef1a2,
-      #bc881b,
-      #a54e07
-    );
+        inset 0 -2px 5px 1px rgba(139, 66, 8, 1),
+        inset 0 -1px 1px 3px rgba(250, 227, 133, 1);
+    background-image: linear-gradient(160deg,
+            #a54e07,
+            #b47e11,
+            #fef1a2,
+            #bc881b,
+            #a54e07);
     border: 1px solid #a55d07;
     color: rgb(120, 50, 5);
     cursor: pointer;
@@ -169,28 +169,38 @@ button {
 .buttons:hover {
     background-size: 150% 150%;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23),
-      inset 0 -2px 5px 1px #b17d10, inset 0 -1px 1px 3px rgba(250, 227, 133, 1);
+        inset 0 -2px 5px 1px #b17d10, inset 0 -1px 1px 3px rgba(250, 227, 133, 1);
     border: 1px solid rgba(165, 93, 7, 0.6);
     color: rgba(120, 50, 5, 0.8);
 
 }
-.buttons-container{
+
+.buttons-container {
     justify-self: center;
     background-color: #1d1c1c;
 }
 
-.doces{
-    background-image: url(/styles/img/menudoces.jpg);
-background-size: 100%;
-background-repeat: no-repeat;
-}
-.xicara{
-    background-image: url(/styles/img/xicara.jpg);
-background-size: 100%;
-background-repeat: no-repeat;
+.ecommerce {
+    background-image: url(/styles/img/ecommerce.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
 }
 
-.labirinto{
+.doces {
+    background-image: url(/styles/img/menudoces.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.xicara {
+    background-image: url(/styles/img/xicara.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.labirinto {
     background-image: url(/styles/img/labirinto.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
