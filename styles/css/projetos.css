@@ -180,6 +180,12 @@ button {
     background-color: #1d1c1c;
 }
 
+.jogodapa{
+    background-image: url(/styles/img/jogodapa.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .ecommerce {
     background-image: url(/styles/img/ecommerce.png);
     background-size: cover;
