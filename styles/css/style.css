@@ -21,7 +21,7 @@ ENTRE EM CONTATO DIRETO PELO: https://wa.me/5511972230817?text=Olá,%20gostaria%
 * {
   margin: 0;
   padding: 0;
-  background-color: #050303;
+  background-color: #0c0606;
 }
 
 hr {
@@ -109,7 +109,6 @@ h2 {
   flex-direction: column;
   align-items: center;
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.5);
   padding: 0.1dvw;
   border-radius: 5px;
   text-decoration: none;
@@ -119,7 +118,6 @@ h2 {
 }
 
 .nav-link img {
-  background-color: black;
   display: block;
   margin-left: auto;
   margin-right: auto;
